@@ -1,58 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
 
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/dog.jpg" class="card-img-top" alt="cat" />
+<body>
+  <%- include('./layout/header'); -%>
+    <h1 class="m-5 m-lg-8 p-8">j;4j;4j;4
+    </h1>
+    <div class="card shadow" style="width: 18rem;">
+      <img
+        src="https://www.google.com/imgres?q=%E5%A4%A9%E6%B0%A3&imgurl=https%3A%2F%2Fwww.cwa.gov.tw%2FData%2Fradar%2FCV1_TW_1000_forPreview.png&imgrefurl=https%3A%2F%2Fwww.cwa.gov.tw%2FV8%2FC%2FP%2FWarning%2FW34.html&docid=fb-IJxNe1wgwzM&tbnid=F4ogAZlwp9IIKM&vet=12ahUKEwig6aKp_ZiPAxVBa_UHHaZNA0IQM3oECCcQAA..i&w=400&h=400&hcb=2&ved=2ahUKEwig6aKp_ZiPAxVBa_UHHaZNA0IQM3oECCcQAA"
+        class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-lg-4"><img class="w-100"
+            src="https://cc.tvbs.com.tw/img/upload/2025/07/27/20250727105439-6523fe36.jpg" alt="">
         </div>
       </div>
     </div>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" c lass="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
 
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+      <p class="fs-3 fs-lg-1 ">aujoisfd</p>
+</body>
+
 </html>
